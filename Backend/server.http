@@ -1,0 +1,17 @@
+### Get Locations
+GET http://localhost:5000/locations
+
+### Get Appliance Types
+GET http://localhost:5000/appliances
+
+### Get Featured Technicians
+GET http://localhost:5000/featured-technicians
+
+### Login
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email": "testuser@example.com",
+  "password": "password123"
+}                   
